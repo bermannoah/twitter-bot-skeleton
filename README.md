@@ -18,7 +18,7 @@ You will need:
 
 ### Installation
 
-1. Clone down this repo: `git clone https://github.com/bermannoah/pahlka-tweets`
+1. Clone down this repo: `git clone https://github.com/bermannoah/twitter-bot-skeleton`
 2. Install the twitter gem: `gem install twitter`
 3. Go to [the Twitter developer pages](https://dev.twitter.com/)
 4. Click on "my apps"
@@ -28,7 +28,7 @@ You will need:
 8. On the next page, click on permissions and make sure "Read and Write" is selected.
 9. Click on "Keys and Access Tokens", then "Create my access token."
 10. DO NOT COMMIT ANY OF THE CONTENT ON THIS PAGE TO GITHUB.
-11. Go to the `twitter_keys.rb` file (if you don't have it - `touch twitter_keys.rb`) and fill in the following block with the info from the Keys and Access Tokens page.
+11. Create a file called twitter_keys.rb (`touch twitter_keys.rb`) inside this directory and then put the following block inside it, completing each line with the relevant info from the previous page. If you get to a later step and it doesn't work, you might need to put the keys/secrets inside quotes.
 
   ```
     CONSUMER_KEY = your consumer key
